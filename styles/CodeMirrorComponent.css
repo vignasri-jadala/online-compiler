@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@1&display=swap');
+
+:root {
+  background-color: #212121 !important;
+}
+
+.CodeMirror {
+  position: absolute !important;
+  line-height: 1.7em !important;
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 1.2rem !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0.75rem !important;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.cm-s-fs1p0, .fs1p0 {font-size: 1.0rem !important;}
+.cm-s-fs1p1, .fs1p1 {font-size: 1.1rem !important;}
+.cm-s-fs1p2, .fs1p2 {font-size: 1.2rem !important;}
+.cm-s-fs1p3, .fs1p3 {font-size: 1.3rem !important;}
+.cm-s-fs1p4, .fs1p4 {font-size: 1.4rem !important;}
+.cm-s-fs1p5, .fs1p5 {font-size: 1.5rem !important;}
+.cm-s-fs1p6, .fs1p6 {font-size: 1.6rem !important;}
+.cm-s-fs1p7, .fs1p7 {font-size: 1.7rem !important;}
+.cm-s-fs1p8, .fs1p8 {font-size: 1.8rem !important;}
+.cm-s-fs1p9, .fs1p9 {font-size: 1.9rem !important;}
+.cm-s-fs2p0, .fs2p0 {font-size: 2.0rem !important;}
+
+.ReactCodeMirror {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+}
+
+.Input,
+.Output,
+.Error {
+  background-color: #263238;
+}
+
+.textarea {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 1.2rem;
+  /* color: #B3E5FC; */
+  border: none;
+  outline: none;
+  /* background-color: #263238; */
+}
+.textarea::selection,
+.textarea::-moz-selection {
+  background: #385154 !important;
+}
+.textarea::-webkit-scrollbar {
+  width: 6px;
+  /* background-color: #394c63; */
+}
+.textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+.textarea::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 2px;
+  background-clip: content-box;
+}
+.textarea::-webkit-scrollbar-thumb:hover {
+  cursor: pointer !important;
+}
