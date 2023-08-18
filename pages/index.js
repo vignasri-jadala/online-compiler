@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="description" content="Online code editor, online compiler, online code runner." />
         <meta property="og:title" content="Code & Run" />
         <meta property="og:description" content="Online code editor, online compiler, online code runner." />
-        <meta property="og:URL" content="https://code-n-run.vercel.app" />
+        <meta property="og:URL" content="https://online-compiler.vercel.app" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -262,7 +262,7 @@ const SideBar = () => {
 
       {/* Github */}
       <SidebarIcon
-        onClick={() => window.open("https://github.com/vignasri-jadala/code-n-run", "_blank")}
+        onClick={() => window.open("https://github.com/vignasri-jadala/online-compiler", "_blank")}
         hoverStrokeColor={theme.sidebarIcon.playIcon.hover.color}
       >
         <Github />
