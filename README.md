@@ -45,8 +45,8 @@
 
 #### To run on local server
 ```bash
-git clone https://github.com/vignasri-jadala/code-n-run.git
-cd code-n-run
+git clone https://github.com/vignasri-jadala/online-compiler.git
+cd online-compiler
 npm install
 npm run dev
 ```
