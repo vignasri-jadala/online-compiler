@@ -1,0 +1,7 @@
+.DropdownList::-webkit-scrollbar {
+    display: none;
+  }
+  .DropdownList {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
